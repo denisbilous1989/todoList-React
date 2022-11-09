@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  .check {
+    margin-right: 5px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.done {
+  margin-bottom: 10px;
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
